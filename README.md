@@ -29,7 +29,7 @@ This Go program is designed to perform a subdomain enumeration on a given domain
 
 # Installation
 ```
-▶ go install github.com/XJOKZVO/Juck@latest
+go install github.com/XJOKZVO/Juck@latest
 ```
 
 # Usage:
