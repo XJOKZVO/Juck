@@ -27,4 +27,19 @@ This Go program is designed to perform a subdomain enumeration on a given domain
 
 6.File Operations: The program creates a new file to store the subdomains and writes the results to this file. It handles potential errors during file creation and writing.
 
-// File Operations: The program creates a new file to store the subdomains and writes the results to this file. It handles potential errors during file creation and writing.
+# Installation
+```
+▶ go install github.com/XJOKZVO/Juck@latest
+```
+
+# Usage:
+```
+./Juck
+      _   _   _    ____   _    
+     | | | | | |  / ___| | | __
+  _  | | | | | | | |     | |/ /
+ | |_| | | |_| | | |___  |   < 
+  \___/   \___/   \____| |_|\_\
+                               
+Enter a domain:
+```
