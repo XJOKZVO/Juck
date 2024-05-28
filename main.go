@@ -168,7 +168,7 @@ func main() {
 
 	fmt.Printf("\nSubdomains of %s found!\n\n", url)
 	for _, subdomain := range subdomains {
-		fmt.Printf("http://%s\n", subdomain)
+		fmt.Printf("https://%s\n", subdomain)
 	}
 
 	domain, _ := getDomain(url)
@@ -181,7 +181,7 @@ func main() {
 	defer file.Close()
 
 	for _, subdomain := range subdomains {
-		file.WriteString(fmt.Sprintf("http://%s\n", subdomain))
+		file.WriteString(fmt.Sprintf("https://%s\n", subdomain))
 	}
 	fmt.Printf("\nSubdomains saved to '%s'\n", fileName)
 }
